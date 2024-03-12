@@ -1,3 +1,6 @@
+import Header from './Header.jsx';
+import Footer from './Footer.jsx';
+import Food from './Food.jsx';
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
@@ -8,6 +11,18 @@ function App() {
 
   return (
     <>
+    <header>
+      <h1>My website</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+      <hr></hr>
+    </header>
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
