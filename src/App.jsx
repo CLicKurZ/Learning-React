@@ -1,16 +1,18 @@
 import Header from './Header.jsx';
 import Footer from './Footer.jsx';
 import Food from './Food.jsx';
+import Card from './Card.jsx';
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+  //const [count, setCount] = useState(0)
 
   return (
-    <>
+      <Card />
+/*  <>
     <header>
       <h1>My website</h1>
       <nav>
@@ -43,8 +45,8 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
-    </>
-  )
+    </> */
+  );
 }
 
-export default App
+export default App;
