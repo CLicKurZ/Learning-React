@@ -2,16 +2,31 @@ import Header from './Header.jsx';
 import Footer from './Footer.jsx';
 import Food from './Food.jsx';
 import Card from './Card.jsx';
+import Button from './Button.jsx';
+import Student from './Student.jsx';
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
+// props = read-only properties that are shared betweeen components.
+//         A parent component can send data to a child component.
+//         <Component key=value />
+
 function App() {
   //const [count, setCount] = useState(0)
 
   return (
+    <>
+    
       <Card />
+      <Button />
+      <Student name="Austin" age={30} isStudent={true}/>
+      <Student name="Christie" age={23} isStudent={false}/>
+      <Student name="John" age={50} isStudent={false}/>
+      <Student name="Jane" age={25} isStudent={true}/>
+      <Student name="Larry"/>
+    </>
 /*  <>
     <header>
       <h1>My website</h1>
