@@ -8,6 +8,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import UserGreeting from './UserGreeting.jsx';
 
 // props = read-only properties that are shared betweeen components.
 //         A parent component can send data to a child component.
@@ -18,6 +19,7 @@ function App() {
 
   return (
     <>
+      <UserGreeting isLoggedIn={true} username="ablaylock"/>
     
       <Card />
       <Button />
