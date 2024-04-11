@@ -1,8 +1,14 @@
+/* Make the page appear in dark mode */
+body {
+  background-color: hsl(0, 0%, 20%);
+  color: hsl(0, 0%, 90%);
+}
+
 .card {
-  border: 1px solid hsl(0, 0%, 80%);
-  border-radius: 10px;
-  box-shadow: 5px 5px 5px hsl(0, 0%, 0%, 0.1);
-  padding: 20px;
+  border: 1px solid hsl(35, 83%, 46%);
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px hsla(290, 85%, 34%, 0.734);
+  padding: 30px;
   margin: 10px;
   text-align: center;
   max-width: 350px;
@@ -19,12 +25,16 @@
 .card .card-title {
   font-family: Arial, sans-serif;
   margin: 0;
-  color: hsl(0, 0%, 25%)
+  color: hsl(0, 0%, 90%);
 }
 
 .card .card-text {
   font-family: Arial, sans-serif;
-  color: hsl(0, 0%, 30%);
+  color: hsl(0, 0%, 85%);
+  text-shadow: 5px, 5px, 5px, hsl(0, 0%, 0%);
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .student {
@@ -56,4 +66,20 @@
   padding: 10px;
   border-radius: 5px;
   margin: 0;
+}
+
+/* Make the link appear in a bubble with white text instead of blue */
+.githubURL {
+  background-color: hsla(217, 93%, 60%, 0.811);
+  color: hsl(0, 0%, 90%);
+  padding: 30px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.githubLogo {
+  max-width: 50%;
+  height: 40px;
+  border-radius: 50%;
+  margin-top: 10px;
 }

@@ -9,6 +9,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import UserGreeting from './UserGreeting.jsx';
+import GithubLink from './GithubLink.jsx';
 
 // props = read-only properties that are shared betweeen components.
 //         A parent component can send data to a child component.
@@ -19,15 +20,16 @@ function App() {
 
   return (
     <>
-      <UserGreeting isLoggedIn={true} username="ablaylock"/>
+      {/* <UserGreeting isLoggedIn={true} username="ablaylock"/> */}
     
       <Card />
       <Button />
-      <Student name="Austin" age={30} isStudent={true}/>
+      <GithubLink />
+      {/* <Student name="Austin" age={30} isStudent={true}/>
       <Student name="Christie" age={23} isStudent={false}/>
       <Student name="John" age={50} isStudent={false}/>
       <Student name="Jane" age={25} isStudent={true}/>
-      <Student name="Larry"/>
+      <Student name="Larry"/> */}
     </>
 /*  <>
     <header>
