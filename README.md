@@ -1,3 +1,6 @@
+This is my learning project space for React,
+I will be using this to present myself in a professional manner.
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
