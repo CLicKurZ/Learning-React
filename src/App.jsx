@@ -23,7 +23,7 @@ function App() {
       {/* <UserGreeting isLoggedIn={true} username="ablaylock"/> */}
     
       <Card />
-      <Button />
+      {/* <Button /> */}
       <GithubLink />
       {/* <Student name="Austin" age={30} isStudent={true}/>
       <Student name="Christie" age={23} isStudent={false}/>
