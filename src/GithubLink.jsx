@@ -24,7 +24,7 @@ function GithubLink() {
     return (
         <p>
         <a className="githubURL" href = {githubURL} target="_blank">
-            <img src={githubLogo} className="githubLogo" alt="Github logo" />
+            <img src={githubLogo} className="githubLogo" alt="Github Logo" />
             My Github
         </a>
         </p>
